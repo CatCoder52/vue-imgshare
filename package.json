@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-vue-graphql",
+  "version": "1.0.0",
+  "description": "Vue-GraphQL-Apollo",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "cd client && npm run serve",
+    "dev": "concurrently --names \"server,client\" \"npm run server --silent\" \"npm run client --silent\""
+  },
+  "keywords": [],
+  "author": "Sam",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
