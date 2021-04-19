@@ -4,7 +4,7 @@
   "description": "Vue-GraphQL-Apollo",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js",
+    "start": "nodemon server.js",
     "client": "cd client && npm run serve",
     "dev": "concurrently --names \"server,client\" \"npm run server --silent\" \"npm run client --silent\""
   },
